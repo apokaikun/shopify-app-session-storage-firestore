@@ -33,9 +33,9 @@
     ],
     "typeRoots": ["./node_modules/@types"],
     "baseUrl": ".",
-    "outDir": ".",
+    "outDir": "src/lib/",
     "rootDir": "."
     },
-  "include": ["./*.ts", "./package.json"],
+  "include": ["src/*.ts", "./package.json", "./tsconfig.json"],
   "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/test/*", "**/__tests__/*"]  
 }

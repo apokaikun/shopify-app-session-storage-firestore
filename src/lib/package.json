@@ -1,0 +1,33 @@
+{
+    "name": "shopify-firebase",
+    "version": "0.0.1",
+    "description": "Shopify App Session Storage for FireStore",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Karl Nonnan Endres",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.1.3"
+    },
+    "dependencies": {
+        "@shopify/shopify-api": "^7.3.1",
+        "@shopify/shopify-app-session-storage": "^1.1.4",
+        "firebase-admin": "^11.9.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/apokaikun/shopify-app-session-storage-firestore.git"
+    },
+    "keywords": [
+        "shopify",
+        "firebase",
+        "firestore"
+    ],
+    "bugs": {
+        "url": "https://github.com/apokaikun/shopify-app-session-storage-firestore/issues"
+    },
+    "homepage": "https://github.com/apokaikun/shopify-app-session-storage-firestore#readme",
+    "type": "module"
+}
